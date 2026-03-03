@@ -445,3 +445,167 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+
+
+@media screen and (max-width: 1260px){
+    header{
+        width: 10%;
+        padding: 10px;
+    }
+
+    main{
+        margin-left: 10%;
+    }
+    header span{
+        display: none;
+    }
+    header .tweet-button{
+        width: 55px;
+        border-radius: 50%;
+        font-size: 1.4rem;
+
+    }
+    header .main-account{
+        display: flex;
+        justify-content: center;
+    }
+    header .main-account i{
+        display: none;
+    }
+
+    header .account-details{
+        display: none;
+    }
+    .nav-links{
+        align-items: center;
+    }
+    .nav-links a i{
+        margin-right: 0px;
+    }
+    .nav-links a,
+    .main-account a{
+        padding: 10px 10px;
+    }
+    .new-tweet{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    padding: 2px 8px;
+}
+
+
+.new-tweet .tweet-img{
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.new-tweet-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 2px;
+    width: 90%;
+    margin-left: 6px;
+}
+
+.new-tweet-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.new-tweet-details input{
+    width: 100%;
+    height: 16px;
+    background-color: black;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.new-tweet-actions ul li{
+    margin-right: 4px;
+    color: #1c88d2;
+    cursor: pointer;
+}
+
+.new-tweet-actions .tweet-button{
+    width: 45px;
+    height: 15px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    max-width: 355px;
+    width: fit-content;
+    border-radius: 16px;
+    background-color: #212327;
+    margin-top: 16px;
+
+}
+
+.follow-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    padding: 30px 15px;
+}
+
+.follow-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    white-space: wrap;
+}
+
+.follow-details a{
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+.follow-details a:hover,
+.follow-details span:hover{
+    text-decoration: underline;
+}
+
+.follow-details span{
+    color: rgb(110,118,125);
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+#follows{
+    font-weight: 300;
+    font-size: 0.7rem;
+    background-color: #1c1e22;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+.follow .tweet-button{
+    width: 55px;
+    height: 35px;
+    margin: 0px 0px 0px 12px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+}
+
+.follow .show-more{
+    padding: 10px 15px;
+}
+}
